@@ -2,6 +2,16 @@
   "expo": {
     "name": "movie",
     "slug": "movie",
-    "version": "1.0.0"
+    "scheme": "movie",
+    "android": {
+      "package": "com.movie"
+    },
+    "ios": {
+      "bundleIdentifier": "com.movie"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-asset"
+    ]
   }
 }
